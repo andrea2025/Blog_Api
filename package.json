@@ -1,0 +1,25 @@
+{
+  "name": "blog-post-assignment",
+  "version": "1.0.0",
+  "description": "a blog API test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrea2025/Blog-post-assignment.git"
+  },
+  "author": "Gerald, Anita, Andrea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrea2025/Blog-post-assignment/issues"
+  },
+  "homepage": "https://github.com/andrea2025/Blog-post-assignment#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.12"
+  }
+}
