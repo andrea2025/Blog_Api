@@ -12,7 +12,7 @@ router.post('/', verify, blogpage.blogEntry)
 
 router.put('/:id', verify, blogpage.blogUpdate)
 
-router.post('/:id', verify, blogpage.blogDelete)
+router.delete('/:id', verify, blogpage.blogDelete)
 
 router.get('/', verify, blogpage.blogDisplay)
 
